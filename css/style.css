@@ -1,0 +1,52 @@
+body{
+    margin: 0px;    
+}
+div{
+    margin: 0px;
+    width: cover;
+    background-color: gray;
+}
+nav{
+    background-color: rgb(255, 115, 1);
+    padding: 20px;
+    text-align: center;
+    top: 0;
+    position: sticky;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+h1{
+    text-align: center;
+    letter-spacing: 10px;
+}
+i{
+    margin-left: 30px;
+}
+table{
+    width:700px;
+    padding: 20px;
+    margin: auto;
+}
+th{
+    background-color: tomato;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+td{
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+tr:nth-child(even){
+    background-color:navy;
+    color: white;
+
+}
+tr:nth-child(odd){
+    background-color: gold;
+}
